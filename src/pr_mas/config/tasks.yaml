@@ -1,0 +1,37 @@
+research_task:
+  description: >
+    Conduct comprehensive research on primitive reflexes in the {developmental_stage} stage.
+    Investigate the neurological, developmental, and clinical significance of these reflexes.
+    Include scientific studies, medical literature, and expert insights.
+  expected_output: >
+    A detailed research summary with 10-15 key points covering:
+    - Definition of primitive reflexes
+    - Specific reflexes present in the {developmental_stage} stage
+    - Neurological development indicators
+    - Clinical significance
+    - Potential developmental concerns
+  agent: medical_researcher
+
+blog_drafting_task:
+  description: >
+    Using the research findings, draft a comprehensive and engaging health blog post 
+    about primitive reflexes in the {developmental_stage} developmental stage.
+    Create three distinct guidelines that parents and caregivers can easily understand and apply.
+  expected_output: >
+    A well-structured markdown blog post that includes:
+    - An engaging introduction
+    - Three clear, actionable guidelines
+    - Detailed explanations for each guideline
+    - Scientific context
+    - Practical advice for parents/caregivers
+  agent: health_content_writer
+
+medical_review_task:
+  description: >
+    Thoroughly review the drafted blog post. Verify medical accuracy, 
+    refine language, ensure clarity, and prepare the content for publication.
+    Validate the three guidelines and their scientific basis.
+  expected_output: >
+    A polished, medically reviewed markdown blog post ready for publication, 
+    with any necessary clarifications, additional context, or medical insights added.
+  agent: medical_editor
